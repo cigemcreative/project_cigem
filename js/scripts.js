@@ -84,7 +84,7 @@
     ---------------------*/
     
     $("#client-slider").owlCarousel({
-        autoPlay : true,
+        autoPlay : 3000, //3 seconds
         minSlides: 1,
         maxSlides: 6,
         moveSlides:1,
@@ -93,29 +93,14 @@
         pagination: false,
         navigation: false
     });
-    $("#quote-slider").owlCarousel({
-        autoPlay : false,
-        singleItem : true,
-        pagination: false,
-        navigation: false
-    });
     $("#owl-testimonials").owlCarousel({
-        autoPlay : true,
+        autoPlay : 3000, //3 seconds
         singleItem : true,
         pagination: true,
         navigation: false
     });
-    // AJAX project slider
-    $(document).ajaxComplete(function(){
-        $("#project-slider").owlCarousel({
-            autoPlay : true,
-            singleItem : true,
-            pagination: true,
-            navigation: false,
-        });
-    });
     $("#owl-slider").owlCarousel({
-        autoPlay : true,
+        autoPlay : 3000, //3 seconds
         singleItem : true,
         pagination: true,
         navigation: false,
