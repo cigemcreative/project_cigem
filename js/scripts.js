@@ -84,7 +84,7 @@
     ---------------------*/
     
     $("#client-slider").owlCarousel({
-        autoPlay : 1000, //1 seconds
+        autoPlay : 1000,
         minSlides: 1,
         moveSlides:1,
         responsive:true,
@@ -92,8 +92,14 @@
         pagination: false,
         navigation: false
     });
+    $("#quote-slider").owlCarousel({
+        autoPlay : false,
+        singleItem : true,
+        pagination: false,
+        navigation: false
+    });
     $("#owl-testimonials").owlCarousel({
-        autoPlay : 1000, //1 seconds
+        autoPlay : 2000,
         singleItem : true,
         pagination: true,
         navigation: false
