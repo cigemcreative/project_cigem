@@ -232,10 +232,10 @@
     /* -------------------
     Back to top button function
     ---------------------*/
-    $('#back-to-top,.to-top').click(function() {
-        $('html, body').animate({ scrollTop: 0}, 1000, 'easeInOutExpo');
-        return false;
-    });
+    // $('#back-to-top,.to-top').click(function() {
+    //     $('html, body').animate({ scrollTop: 0}, 1000, 'easeInOutExpo');
+    //     return false;
+    // });
     /* -------------------
     Active menu item on page scroll
     ---------------------*/
